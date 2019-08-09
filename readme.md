@@ -4,3 +4,7 @@
 编译环境 vs2017  
 #### 注意事项
 编译生成之后，需要把CefRender\cef_depence\win-mainfest目录下的文件添加到生成的exe程序中，参照vs2017 属性-生成事件-生成后事件。
+
+#### cef 依赖库位置
+debug依赖库 CefRender\cef_depence\lib\Debug  
+release依赖库 CefRender\cef_depence\lib\release
